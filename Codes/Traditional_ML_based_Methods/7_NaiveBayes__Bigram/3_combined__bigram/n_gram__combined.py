@@ -19,7 +19,7 @@ labels = []
 
 
 
-recipes = pd.read_csv('Combined_Corpus.csv')
+recipes = pd.read_csv('fulltrain_Guardian_Nyt_binary_shuffled.csv')
 X = np.array(recipes.drop(['Label'], 1))
 y = np.array(recipes['Label'])
 
