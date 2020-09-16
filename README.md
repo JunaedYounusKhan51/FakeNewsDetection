@@ -1,14 +1,22 @@
-# Automated Fake News Detection Using Machine Learning Approaches
-Git Repo for the Thesis on Fake News Detection.....
+## Basic Info
+This repo contains the implementation of a benchmark study on machine learning methods for fake news detection. 
 
-# A Benchmark Study on Machine Learning Methods for Fake News Detection
-The proliferation of fake news and its propagation on social media have become a major concern due to its ability to create devastating impacts. Different machine learning approaches have been attempted to detect it. However, most of those focused on a special type of news (such as political) and did not apply many advanced techniques. In this research, we conduct a benchmark study to assess the performance of different applicable approaches on three different datasets where the largest and most diversified one was developed by us.  We also implemented some advanced deep learning models that have shown promising results. We also find that it is easier for clickbait news sources to spread disinformation on health and research related issues. This implies that, although in recent times, the media has focused mostly on combating against unauthentic political news, it should also pay attention to stop the proliferation of false health and research related news for public safety. 
+## Requirements
+* Python
+* Numpy
+* Pandas
+* Keras
+* tqdm
 
-Specifically, in our study, we investigate:
+## Materials Used
+* Liar Dataset
+* Fake-or-real news Dataset
+* Combined Corpus
 
-1. Performance of traditional machine learning and neural network models on three different datasets with the largest dataset developed by us. Unlike other two datasets that contain news on the specific topic, we have covered a wide range of topics and accumulated five times more news compared to others.
-2. Performance of some advanced models such as convolutional-LSTM, character-level convolutional-LSTM, convolutional-HAN which are not used in fake news detection yet to the best of our knowledge.
-3. Performance of different models that have shown promising results on other similar problems.
-4. Topic-based analysis on misclassified news, especially deceptive news that is falsely identified as true.
+## Models Evaluated
+* Traditional Machine Learning Models: SVM, LR, Decision Tree, AdaBoost, Naive Bayes, K-NN
+* Deep Learning Models: CNN, LSTM, Bi-LSTM, C-LSTM, HAN, Conv-HAN
 
-We observe that the performance of models is not dataset invariant and so it is quite difficult to obtain a unique superior model for all datasets. We have also found that traditional machine learning architecture like Naive Bayes can achieve very high accuracy with proper feature selection. On a small dataset with less than 100k news articles, Naive Bayes(with n-gram) can be a primary choice as it achieves similar performance compared to neural network-based high overhead models. Most importantly, our newly explored neural network based models in this fake news detection achieve as high as 95% accuracy and F1-score and exhibit improvement in performance with the enrichment of dataset.
+
+## Code
+You will find the codes of this project under the 'Codes' directory.
