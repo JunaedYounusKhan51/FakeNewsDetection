@@ -15,7 +15,7 @@ This repo contains the implementation of a benchmark study on machine learning m
 
 ## Models Evaluated
 * Traditional Machine Learning Models: SVM, LR, Decision Tree, AdaBoost, Naive Bayes, K-NN
-* Deep Learning Models: CNN, LSTM, Bi-LSTM, C-LSTM, HAN, Conv-HAN
+* Deep Learning Models: CNN, LSTM, Bi-LSTM, C-LSTM, HAN, Conv-HAN, Char-level C-LSTM
 
 
 ## Code
