@@ -20,3 +20,16 @@ This repo contains the implementation of a benchmark study on machine learning m
 
 ## Code
 You will find the codes of this project under the 'Codes' directory.
+
+## Cite us
+If you use our code, data, or finding, please cite [A Benchmark Study of Machine Learning Models for Online Fake News Detection](https://doi.org/10.1016/j.mlwa.2021.100032).
+```
+@article{khan2021benchmark,
+  title={A benchmark study of machine learning models for online fake news detection},
+  author={Khan, Junaed Younus and Khondaker, Md Tawkat Islam and Afroz, Sadia and Uddin, Gias and Iqbal, Anindya},
+  journal={Machine Learning with Applications},
+  volume={4},
+  pages={100032},
+  year={2021},
+  publisher={Elsevier}
+```
