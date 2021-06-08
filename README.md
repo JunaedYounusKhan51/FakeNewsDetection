@@ -24,7 +24,7 @@ You will find the codes of this project under the 'Codes' directory.
 ## Cite us
 If you use our code, data, or finding, please cite the relevant publications.
 
-###Journal Publication:
+* Journal Publication:
 [A Benchmark Study of Machine Learning Models for Online Fake News Detection](https://doi.org/10.1016/j.mlwa.2021.100032).
 ```
 @article{khan2021benchmark,
